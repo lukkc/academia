@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html class="e-column-12">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" , content="width=device-width, initial-scale=1">
+    <title>Seven Academia</title>
+
+    <link rel="stylesheet" href="../css/componente/button.css">
+    <link rel="stylesheet" href="../css/componente/group-input.css">
+    <link rel="stylesheet" href="../css/componente/link.css">
+    <link rel="stylesheet" href="../css/estado/flexbox.css">
+    <link rel="stylesheet" href="../css/estado/grid.css">
+    <link rel="stylesheet" href="../css/estado/is-has.css">
+    <link rel="stylesheet" href="../css/objeto/banner.css">
+    <link rel="stylesheet" href="../css/objeto/map.css">
+    <link rel="stylesheet" href="../css/objeto/menu.css">
+    <link rel="stylesheet" href="../css/objeto/modal.css">
+    <link rel="stylesheet" href="../css/objeto/navbar.css">
+    <link rel="stylesheet" href="../css/objeto/validate.css">
+    <link rel="stylesheet" href="../css/objeto/sections/section.css">
+    <link rel="stylesheet" href="../css/objeto/sections/section-cadastro.css">
+    <link rel="stylesheet" href="../css/objeto/sections/section-contato.css">
+    <link rel="stylesheet" href="../css/objeto/sections/section-dashboard.css">
+    <link rel="stylesheet" href="../css/objeto/sections/section-infoCompra.css">
+    <link rel="stylesheet" href="../css/objeto/sections/section-localizacao.css">
+    <link rel="stylesheet" href="../css/objeto/sections/section-login.css">
+    <link rel="stylesheet" href="../css/objeto/sections/section-redesSociais.css">
+    <link rel="stylesheet" href="../css/objeto/sidenav.css">
+    <link rel="stylesheet" href="../css/style/colors.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+</head>
+
+<body class="e-flexP-column e-flexP-items__center s-bg__color1 e-column-12">
+
+    <header class="header o-header-cadastro e-column-98 e-flexC-self__center">
+        <div class="o-navbar-logo e-column-12">
+            <div class=" o-navbar-header__logo e-flexP-center__center s-bg__color2 ">
+                <a href="index.html">
+                    <img class="o-navbar-logo__img" src="../img/logo.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="o-group-section o-section-cadastro e-flexP-wrap e-column-98 ">
+        <form id="formCadastroUsuario"  action="">
+            <section class="e-flexP-wrap e-column-12">
+                <section class="e-column-6 e-column-sm">
+                    <section class="o-section e-flexP-wrap e-column-12">
+
+                        <div class="o-section-title e-column-12">
+                            <h2 class="s-text__color6">
+                                <i class="o-card-user" aria-hidden="true"></i> Dados Pessoais
+                            </h2>
+                        </div>
+
+                        <div class="c-group-input e-flexP-column e-column-12">
+                            <label class="c-label s-text__color6" for="nomeCompleto">
+                                  Nome Completo:
+                            </label>
+                            <input class="c-input e-column-10 e-column-md-12 e-column-xs-12" type="text" name="nomeCompleto" value="" placeholder="Ex: Joana da Silva" >
+                        </div>
+
+                        <div class="c-group-input e-flexP-column e-column-12">
+                            <label class="c-label s-text__color6" for="email">
+                                  E-mail:
+                            </label>
+                            <input class="c-input e-column-8 e-column-md-12 e-column-xs-12" type="email" name="email" value="" placeholder="Ex: SeuEmail@email.com">
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-column e-column-12">
+                            <label class="c-label s-text__color6" for="senha">
+                                  Senha:
+                            </label>
+                            <input id="senha" class="c-input e-column-8 e-column-md-12 e-column-xs-12" type="password" name="senha" >
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-column e-column-12">
+                            <label class="c-label s-text__color6" for="confirmarSenha">
+                                  Confirmar Senha:
+                            </label>
+                            <input class="c-input e-column-8 e-column-md-12 e-column-xs-12" type="password" name="confirmarSenha" >
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-column e-column-12">
+                            <label class="c-label s-text__color6" for="cpf">
+                                  CPF:
+                            </label>
+                            <input class="c-input e-column-6 e-column-md-8 e-column-xs-10" type="text" name="cpf" value="" placeholder="Ex: 00000000000" >
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-wrap e-flexP-justify__between e-column-8 e-column-md-10 e-column-xs-12">
+                            <label class="c-label e-column-12 s-text__color6" for="dataNascimento">
+                                  Data de Nascimento:
+                            </label>
+                            <input class="c-input e-column-2" type="text" name="dataNascimentoDia"  placeholder="Dia">
+                            <select class="c-select s-bg__color1 e-column-6" name="dataNascimentoMes">
+                                  <option value="">Mês</option>
+                                  <option value="1">janeiro</option>
+                                  <option value="2">fevereiro</option>
+                                  <option value="3">março</option>
+                                  <option value="4">abril</option>
+                                  <option value="5">maio</option>
+                                  <option value="6">junho</option>
+                                  <option value="7">julho</option>
+                                  <option value="8">agosto</option>
+                                  <option value="9">setembro</option>
+                                  <option value="10">outubro</option>
+                                  <option value="11">novembro</option>
+                                  <option value="12">dezembro</option>
+                            </select>
+                            <input class="c-input e-column-3" type="text" name="dataNascimentoAno" value="" placeholder="Ano">
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-wrap e-column-12">
+                            <label class="c-label s-text__color6 e-column-12" for="telefone">
+                                  Telefone:
+                            </label>
+                            <div class="e-flexP-justify__between e-column-7 e-column-md-10 e-column-xs-11">
+                                <input class="c-input e-column-2 e-column-md-3 e-column-xs-3" type="text" name="telefoneDDD" value="" placeholder="DDD">
+                                <input class="c-input e-column-9 e-column-md-8 e-column-xs-8" type="text" name="telefoneNum" value="" placeholder="Telefone">
+                            </div>
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-column e-flexP-justify__between e-column-12">
+                            <label class="c-label s-text__color6 e-column-12" for="cep">
+                                  CEP:
+                            </label>
+                            <input class="c-input e-column-4 e-column-md-6 e-column-xs-6" type="text" name="cep" value="" placeholder="Ex: 5804545">
+                        </div>
+
+                        <div class="c-group-input e-flexP-wrap e-flexP-justify__between e-column-9 e-column-md-12 e-column-xs-12">
+                            <label class="c-label s-text__color6 e-column-12" for="rua">
+                                  Rua / Logradouro:
+                            </label>
+                            <input class="c-input e-column-12" type="text" name="rua" value="" placeholder="Av. Epitacio Pessoa">
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-column e-flexP-justify__between e-column-12">
+                            <label class="c-label s-text__color6 e-column-12" for="numero">
+                                  Número:
+                            </label>
+                            <input class="c-input e-column-4 e-column-md-6 e-column-xs-4" type="text" name="numero" value="" placeholder="Ex: 3010">
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-column e-flexP-justify__between e-column-12">
+                            <label class="c-label s-text__color6 e-column-12" for="cidade">
+                                  Cidade:
+                            </label>
+                            <input class="c-input e-column-6 e-column-md-7 e-column-xs-10" type="text" name="cidade" value="" placeholder="Ex: João Pessoa">
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-column e-flexP-justify__between e-column-12">
+                            <label class="c-label s-text__color6 e-column-12" for="bairro">
+                                  Bairro:
+                            </label>
+                            <input class="c-input e-column-6 e-column-xs-10" type="text" name="bairro" value="" placeholder="Ex: Centro">
+                        </div>
+
+
+                        <div class="c-group-input e-flexP-column e-flexP-justify__between e-column-12">
+                            <label class="c-label s-text__color6 e-column-12" for="estado">
+                                  Estado:
+                            </label>
+                            <select class="c-select s-bg__color1 e-column-4 e-column-md-5 e-column-xs-10" name="estado">
+                                    <option value="" label="selecione">Selecione</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>		 
+                                    <option value="AP">Amapá</option>		 
+                                    <option value="AM">Amazonas</option>		 
+                                    <option value="BA">Bahia</option>	 
+                                    <option value="CE">Ceará</option>		 
+                                    <option value="DF">Distrito Federal</option>		 
+                                    <option value="ES">Espírito Santo</option>		 
+                                    <option value="GO">Goiás</option>		 
+                                    <option value="MA">Maranhão</option>		 
+                                    <option value="MT">Mato Grosso</option>		 
+                                    <option value="MS">Mato Grosso do Sul</option>		 
+                                    <option value="MG">Minas Gerais</option>		 
+                                    <option value="PA">Pará</option>		 
+                                    <option value="PB">Paraíba</option>		 
+                                    <option value="PR">Paraná</option>		 
+                                    <option value="PE">Pernambuco</option>	 
+                                    <option value="PI">Piauí</option>		 
+                                    <option value="RJ">Rio de Janeiro</option>		 
+                                    <option value="RN">Rio Grande do Norte</option>		 
+                                    <option value="RS">Rio Grande do Sul</option>		 
+                                    <option value="RO">Rondônia</option>		 
+                                    <option value="RR">Roraima</option>		 
+                                    <option value="SC">Santa Catarina</option>		 
+                                    <option value="SP">São Paulo</option>		 
+                                    <option value="SE">Sergipe</option>		 
+                                    <option value="TO">Tocantins</option>	
+                            </select>
+                        </div>
+
+                        <div class="c-group-input e-flexP-column e-flexP-justify__between e-column-12">
+                            <label class="c-label s-text__color6 e-column-12" for="complemento">
+                                  Complemento:
+                            </label>
+                            <input class="c-input e-column-10 e-column-md-12 e-column-xs-12" type="text" name="complemento" value="" placeholder="Ex: Apartamento 300">
+                        </div>
+
+                    </section>
+
+
+                    <section class="o-section  e-column-12">
+                        <div class="o-section-title e-column-12">
+                            <h2 class="s-text__color4">
+                                <i class="o-card-pag" aria-hidden="true"></i> Dados de Pagamento
+                            </h2>
+                        </div>
+                        <div class="c-group-input e-flexP-column e-column-12 ">
+                            <div class="e-column-10 e-column-xs  e-flexP-items__center e-flexP-justify__around">
+                                <img class="e-column-1" src="../img/bandeira-cartoes/mastercard-48px.png" alt="">
+                                <img class="e-column-1" src="../img/bandeira-cartoes/visa-48px.png" alt="">
+                                <img class="e-column-1" src="../img/bandeira-cartoes/amex-48px.png" alt="">
+                                <img class="e-column-1" src="../img/bandeira-cartoes/elo-48px.png" alt="">
+                                <img class="e-column-1" src="../img/bandeira-cartoes/diners-48px.png" alt="">
+                                <img class="e-column-1" src="../img/bandeira-cartoes/hipercard-48px.png" alt="">
+                                <img class="e-column-1" src="../img/bandeira-cartoes/hiper.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="c-group-input e-flexP-column e-column-12 ">
+                            <label class="c-label s-text__color4" for="nomeTitular">
+                                  Nome do Titular:
+                            </label>
+                            <input class="c-input e-column-10 e-column-md-12 e-column-xs-12" type="text" name="nomeTitular" value="" placeholder="Ex: Pedro Rocha">
+                        </div>
+
+
+                        <div class="e-flexP-wrap e-flexP-justify__between ">
+                            <div class="c-group-input e-flexP-column e-column-12">
+                                <label class="c-label s-text__color4" for="bandeiraCartao">
+                                      Bandeira do Cartão:
+                                </label>
+
+                                <select class="c-select s-bg__color1 e-column-4 e-column-md-5 e-column-xs-6" name="cartoes">
+                                      <option value="" label="Selecione">Selecione</option>
+                                      <option value="1">Mastercard</option>
+                                      <option value="2">Visa</option>
+                                      <option value="3">Amex</option>
+                                      <option value="4">Elo</option>
+                                      <option value="5">Diners</option>
+                                      <option value="6">Hiper</option>
+                                      <option value="7">Hipercard</option>
+                                </select>
+                            </div>
+
+
+                            <div class="c-group-input e-flexP-column e-column-10 e-column-xs-12">
+                                <label class="c-label s-text__color4" for="numeroCartao">
+                                      Nº do Cartão:
+                                </label>
+                                <input class="c-input" type="text" name="numeroCartao" value="">
+                            </div>
+
+
+                            <div class="c-group-input e-flexP-wrap e-flexP-justify__between e-column-6 e-column-md-10 e-column-xs-10">
+                                <label class="c-label e-column-12 s-text__color4" for="cpf">
+                                      Data de Expiração:
+                                </label>
+                                <select class="c-select s-bg__color1 e-column-6" name="expiracaoMes">
+                                  <option value="">Mês</option>
+                                  <option value="1">janeiro</option>
+                                  <option value="2">fevereiro</option>
+                                  <option value="3">março</option>
+                                  <option value="4">abril</option>
+                                  <option value="5">maio</option>
+                                  <option value="6">junho</option>
+                                  <option value="7">julho</option>
+                                  <option value="8">agosto</option>
+                                  <option value="9">setembro</option>
+                                  <option value="10">outubro</option>
+                                  <option value="11">novembro</option>
+                                  <option value="12">dezembro</option>
+                            </select>
+                                <input class="c-input e-column-5" type="text" name="expiracaoAno" value="" placeholder="Ano">
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+
+                <section class="o-section e-column-6 e-column-sm__hidden">
+                    <div class="e-flexP-column s-bg__color1 o-section-informacaoCompra">
+                        <div class="block">
+                            <h2 class="title s-text__color8">
+                                Plano
+                            </h2>
+                            <ul class="e-column-12">
+
+                                <li class="s-text__color8">
+                                    <strong>
+                                        <i class="o-arrow-right" aria-hidden="true"></i>
+                                        Musculação
+                                     </strong>
+                                </li>
+
+                                <li class="s-text__color8">
+                                    <strong>
+                                        <i class="o-arrow-right" aria-hidden="true"></i>
+                                        Dança (Ritmos)
+                                    </strong>
+                                </li>
+
+                                <li class="s-text__color8">
+                                    <strong>
+                                        <i class="o-arrow-right" aria-hidden="true"></i>
+                                        Body Pump
+                                    </strong>
+                                </li>
+
+                                <li class="s-text__color8">
+                                    <strong>
+                                        <i class="o-arrow-right" aria-hidden="true"></i>
+                                        Treinamento Funcional
+                                    </strong>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="e-flexP-column ">
+                            <h2 class="title s-text__color4">
+                                Mensalidade
+                            </h2>
+                            <p class="s-text__color4 mensalidade">
+                                <strong>
+                                    R$ 59,90 / Mês
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="o-section e-column-12 e-flexP-wrap e-flexP-content__center">
+                    <div class="e-column-6 e-column-sm">
+                        <div class="c-group-input e-flexP-start__center e-flexP-wrap e-column-12 e-column-sm">
+                            <div class="e-flexP-start__center">
+                                <label class="s-text__color3" for="termoAdesao">
+                                Li e aceito o
+                                <a class="c-link-termo-adesao s-text__color8" href="../files/Contrato Academia.pdf">
+                                    termo de adesão e as normas de utilização.
+                                </a>
+                            </label>
+                            <input class="checkbox e-flexC-order__0 e-flexP-center__center s-bg__color3 s-text__color1" type="checkbox" name="termoAdesao" value="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="e-flexP-center__center e-column-6 e-column-sm">
+                        <button class="o-banner-fixo__button c-button e-column-8
+                        e-column-xs-10 s-bg__color8 s-text__color10 " type="submit" name="button">
+                              ENVIAR
+                        </button>
+                    </div>
+                </section>
+            </section>
+        </form>
+    </section>
+
+    <div class="o-modal js-modal-assinatura">
+        <div class="o-modal-content">
+            <div class="o-modal-heading e-flex">
+                <button class="o-modal-close e-flexC-self__end js-modal-close" type="">
+                    <img src="../img/close3.png" alt="">
+                </button>
+            </div>
+            <div class="o-modal-body">
+                Salve esse codigo para comprovar sua assinatura
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer e-flexP-justify__end e-column-98">
+        <nav class="o-navbar-footer e-column-12 e-flexP-justify__start s-bg__color2">
+            <div class="o-navbar-logo e-column-3 e-column-sm__hidden">
+                <div class="o-navbar-footer__logo e-flexP-start__center s-bg__color2">
+                    <a href="index.html">
+                        <img class="o-navbar-logo__img" src="../img/logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <ul class="o-navbar-list e-column-8 e-flexP-center__center e-column-sm e-column-xs__hidden">
+
+                <li class="o-navbar-item e-flexP-items__stretch e-column-3">
+                    <a class="o-navbar-link e-column-12 e-flexP-center__center s-text__color3" href="#localizacao">
+                        LOCALIZAÇÃO
+                    </a>
+                </li>
+
+                <li class="o-navbar-item e-flexP-items__stretch e-column-3">
+                    <a class="o-navbar-link e-column-12 e-flexP-center__center s-text__color3" href="#contato">
+                        FALE CONOSCO
+                    </a>
+                </li>
+
+                <li class="o-navbar-item e-flexP-items__stretch e-column-3">
+                    <a class="o-navbar-link e-column-12 e-flexP-center__center s-text__color3" href="#redesSociais">
+                        REDES SOCIAIS
+                    </a>
+                </li>
+
+                <li class="o-navbar-item o-item-acessar e-flexP-items__stretch e-column-3">
+                    <a class="o-navbar-link o-link-acessar e-column-12 e-flexP-center__center s-text__color3" href="login-usuario.html">
+                        ACESSAR
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script type="text/javascript" src="../js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="../js/forma-pagamento.js"></script>
+    <script type="text/javascript" src="../js/modal.js"></script>
+    <script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../js/validateCadastroUsuario.js"></script>
+</body>
+
+</html>

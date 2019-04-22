@@ -1,0 +1,58 @@
+html,
+body {
+    position: relative;
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    max-width: 1500px;
+    margin: auto;
+    
+}
+
+header {
+    position: relative;
+    z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a,
+button,
+select,
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+form{
+     width: 100%;
+}
+
+.group-info {
+    margin: 10px 0;
+}
+
+.group-info label {
+    font-size: 14px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: #404040;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #282828;
+    border: 2px solid #404040;
+}
+
+

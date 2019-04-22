@@ -1,0 +1,103 @@
+.s-bg__color0 {
+    background-color: #fff;
+}
+
+.s-bg__color1 {
+    background-color: #232323;
+}
+
+.s-bg__color2 {
+    background-color: #202020;
+}
+
+.s-bg__color3 {
+    background-color: #eee;
+}
+
+.s-bg__color4 {
+    background-color: #ffd966;
+}
+
+.s-bg__color5 {
+    background-color: #b32222;
+}
+
+.s-bg__color6 {
+    background-color: #8dc73e;
+}
+
+.s-bg__color7 {
+    background-color: #3b5998;
+}
+
+.s-bg__color8 {
+    background-color: #1C9ECD;
+}
+
+.s-bg__color9 {
+    background-color: #cd486b;
+}
+
+.s-bg__color10 {
+    background-color: #282828;
+}
+
+.s-bg__color11 {
+    background-color: #66a909;
+}
+
+
+
+.s-text__color0 {
+    color: #fff;
+}
+
+.s-text__color1 {
+    color: #404040;
+}
+
+.s-text__color2 {
+    color: #333;
+}
+
+.s-text__color3,
+.s-text-status__aguardando {
+    color: #eee;
+}
+
+.s-text__color4 {
+    color: #ffd966;
+}
+
+.s-text__color5,
+.s-text-status__pendente {
+    color: #b32222;
+}
+
+.s-text__color6 {
+    color: #8dc73e;
+}
+
+.s-text__color7 {
+    color: #3b5998;
+}
+
+.s-text__color8 {
+    color: #1C9ECD;
+}
+
+.s-text__color9 {
+    color: #cd486b;
+}
+
+.s-text__color10{
+    color:  #282828;
+}
+
+.s-text__color11 {
+    color: #6fbb04;
+}
+
+.s-text-status__pago {
+    color: #40EA4A;
+}

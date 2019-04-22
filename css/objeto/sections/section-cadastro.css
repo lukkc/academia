@@ -1,0 +1,13 @@
+ .o-section-cadastro {
+     padding-top: 46px;
+ }
+ 
+ .o-section-cadastro .o-section-title {
+     margin-bottom: 60px;
+ }
+ 
+ @media screen and (min-width: 1000px) {
+     .o-section-cadastro {
+         padding-top: 135px;
+     }
+ }

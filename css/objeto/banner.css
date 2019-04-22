@@ -1,0 +1,202 @@
+.o-banner-principal {
+    margin-bottom: 40px;
+}
+
+.o-banner-img {
+    width: calc(100% - 280px);
+    height: 545px;
+}
+
+.o-banner-fixo {
+    position: fixed;
+    top: 585px;
+    right: 1%;
+    bottom: 0;
+    z-index: 1;
+    width: calc(98% - 280px);
+    max-width: calc(1500px - 2%);
+    height: 20px;
+    transition: top .5s;
+}
+
+.o-banner-fixo__info {
+    position: absolute;
+    top: -435px;
+    left: -280px;
+    z-index: 1;
+    width: 280px;
+    height: 455px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.o-banner-fixo,
+.o-banner-fixo__info {
+    background-color: #202020;
+    -webkit-box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.o-section-login .o-banner-fixo {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: auto;
+    bottom: 0px;
+}
+
+.o-banner-fixo__valor {
+    font-size: 5em;
+}
+
+.o-banner-fixo__valor span {
+    font-size: 12px;
+}
+
+.o-banner-fixo__button {
+    height: 60px;
+    font-size: 1.3em;
+    font-weight: bold;
+    animation: pulse .5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.04, 1.04);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.o-banner-fixo__button:active{
+    animation-play-state: paused;
+}
+
+@media screen and (max-width: 1000px) {
+    .o-banner-img {
+        width: 100%;
+        max-height: 500px;
+    }
+    .o-banner-fixo {
+        top: auto;
+        right: 1%;
+        bottom: 0;
+        width: 98%;
+        background-color: transparent;
+    }
+    .o-banner-fixo__info {
+        top: auto;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        border-radius: 0;
+        border-top: 3px solid #404040;
+        -webkit-box-shadow: -3px 3px 4px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -3px 3px 4px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: -3px 3px 4px 0px rgba(0, 0, 0, 0.75);
+    }
+    .o-banner-fixo {
+        border-bottom: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .o-banner-fixo__info .o-banner-preco {
+        justify-content: space-around;
+        -webkit-justify-content: space-around;
+        -ms-justify-content: space-around;
+        -o-justify-content: space-around;
+        -moz-justify-content: space-around;
+        width: 40%;
+    }
+    .o-banner-fixo .o-banner-fixo__info,
+    .o-banner-fixo__info .o-banner-preco {
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        -moz-flex-direction: row;
+        -o-flex-direction: row;
+    }
+    .o-banner-preco h3:first-child,
+    .o-banner-preco h4 {
+        display: none;
+    }
+    .o-banner-preco p {
+        font-size: 1.5em;
+    }
+    .o-banner-preco p:nth-child(2) {
+        margin-top: 10px;
+    }
+    .o-banner-preco p:nth-child(4) {
+        margin-bottom: 10px;
+    }
+    .o-banner-fixo__info .o-banner-fixo__button {
+        width: 36%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .o-banner-fixo__info .o-banner-preco {
+        width: 50%;
+    }
+    .o-banner-fixo__info .o-banner-fixo__button {
+        font-size: 1.1em;
+    }
+    
+    .o-banner-principal{
+        margin-bottom: 10px;
+    }
+    
+    .o-banner-img {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .o-banner-fixo__info .o-banner-fixo__button {
+        width: 40%;
+    }
+    .o-banner-fixo__valor {
+        font-size: 3.5em;
+    }
+    .o-banner-preco p {
+        font-size: 1.1em;
+    }
+    .o-banner-preco p:nth-child(2) {
+        margin-top: 5px;
+    }
+    .o-banner-preco p:nth-child(4) {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 333px) {
+    .o-banner-fixo__info .o-banner-fixo__button {
+        font-size: 1em;
+    }
+    .o-banner-fixo__valor {
+        font-size: 2.5em;
+    }
+    .o-banner-preco p {
+        font-size: .8em;
+        margin-left: 2px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .o-banner-fixo {
+        width: calc(1500px - 2%);
+        right: calc((101% - 1500px) / 2);
+    }
+    .o-banner-fixo__info {
+        left: calc((100% - 1500px) / 2);
+    }
+}

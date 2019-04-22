@@ -1,0 +1,9 @@
+.o-map {
+    height: 500px;
+}
+
+@media screen and (max-width: 400px) {
+    .o-map {
+        height: 400px;
+    }
+}

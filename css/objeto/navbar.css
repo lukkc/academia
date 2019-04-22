@@ -1,0 +1,122 @@
+.o-navbar-footer {
+    transition: width .2s;
+    border: 2px solid #282828;
+    padding: 10px;
+}
+
+.o-navbar {
+    position: fixed;
+    top: 0;
+    max-width: calc(1500px - 1%);
+    z-index: 1;
+    min-height: 45px;
+    height: auto;
+    transition: top 1s;
+    border-bottom: 1px solid #282828;
+}
+
+.o-navbar-footer__logo {
+    margin-left: 10px;
+}
+
+.o-header-cadastro .o-navbar-header__logo {
+    width: 100%;
+}
+
+/* .o-section-login .o-navbar-header__logo {
+    height: 600px;
+} */
+
+.o-navbar-header__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 280px;
+    height: 120px;
+    border-bottom: 3px solid #8dc73e;
+    border-left: 1px solid #8dc73e;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.o-navbar-footer__logo .o-navbar-logo__img {
+    width: 100px;
+}
+
+.o-navbar-logo__img {
+    width: 152px;
+}
+
+.o-navbar-item{
+    height: 45px;
+    border-bottom: 0px solid transparent;
+    transition: border .1s;
+}
+
+.o-navbar-item:hover {
+    border-bottom-width: 5px;
+}
+
+.o-navbar-item:not(.o-item-acessar):hover {
+    border-bottom-color: #1C9ECD;
+}
+
+.o-navbar-link {
+    height: 45px;
+    font-size: .75em;
+    font-weight: bold;
+    transition: color .4s;
+}
+
+.o-navbar-item:not(.o-item-acessar):hover .o-navbar-link {
+    color: #1c9ec9;
+}
+
+.o-navbar-item.o-item-acessar:hover {
+    border-bottom-color: #8dc73e;
+}
+
+.o-navbar-item.o-item-acessar:hover .o-navbar-link{
+    color: #8dc73e;
+}
+
+
+@media screen and (max-height: 500px){
+    .o-navbar {
+        width: 100%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .o-navbar {
+        width: 100%;
+    }
+
+    .o-navbar-header__logo {
+        justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -ms-justify-content: flex-start;
+        -o-justify-content: flex-start;
+        -moz-justify-content: flex-start;
+        height: auto;
+        border: none;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    .o-section-login .o-navbar-header__logo {
+        height: auto;
+    }
+    .o-navbar-logo__img {
+        width: 100px;
+    }
+}

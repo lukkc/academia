@@ -1,0 +1,17 @@
+.o-facebook:before{
+    content: url(../../../img/facebook.png)
+}
+
+.o-instagram:before{
+    content: url(../../../img/instagram.png)
+}
+
+.o-twitter:before{
+    content: url(../../../img/twitter.png)
+}
+
+@media screen and (max-width: 767px) {
+    .o-section-redesSociais {
+        margin-bottom: 100px;
+    }
+}

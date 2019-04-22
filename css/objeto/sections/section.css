@@ -1,0 +1,81 @@
+.o-group-section,
+.o-group-section__marginTop {
+    position: relative;
+}
+
+.o-group-section__marginTop {
+    margin-top: 45px;
+}
+
+.o-section {
+    padding: 40px 30px;
+    background-color: #202020;
+    margin-bottom: 5px;
+    transition: width .5s;
+    border: 2px solid #282828;
+}
+
+.o-section,
+section {
+    transition: width .5s;
+}
+
+.o-section-title {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.o-section-footer {
+    margin-bottom: 30px;
+}
+
+.o-card-user:before{
+    content: url(../../../img/id-card.png);
+    position: relative;
+    top: 20px;
+}
+
+.o-card-pag:before{
+    content: url(../../../img/card-pag.png);
+    position: relative;
+    top: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+    .o-section-title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .o-section-footer .o-navbar-logo {
+        display: none;
+    }
+    .o-navbar-list {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .o-section-footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .o-section {
+        padding: 40px 10px;
+    }
+    
+    .o-section-cadastro .o-section-title h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .o-group-section__marginTop {
+        margin-top: 0px;
+    }
+}

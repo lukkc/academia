@@ -1,0 +1,26 @@
+.o-section-informacaoCompra {
+    padding: 60px 0px 60px 40px;
+    border: 3px solid #282828;
+}
+
+.o-section-informacaoCompra .block {
+    margin-bottom: 40px;
+}
+
+.o-section-informacaoCompra .title {
+    margin: 5px 0;
+}
+
+.o-section-informacaoCompra ul,
+.o-section-informacaoCompra p {
+    text-indent: 20px;
+}
+
+.o-section-informacaoCompra .mensalidade {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+.o-section-informacaoCompra ul li {
+    padding: 5px;
+}

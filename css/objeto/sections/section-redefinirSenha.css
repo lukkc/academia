@@ -1,0 +1,124 @@
+.o-section-redefinirSenha{
+  margin-top: 48px;
+  min-height: calc(100vh - 60px);
+}
+
+.o-section-redefinirSenha__step{
+  position: relative;
+  width: 300px;
+  min-width: 300px;
+  max-height: 400px;
+  margin: 100px 50px 0 50px;
+  border-right: 2px solid #8DC73E;
+}
+
+.o-section-redefinirSenha__step:after{
+  content: "";
+  position: absolute;
+  right: -8px;
+  bottom: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #8DC73E;
+  border-radius: 50%;
+}
+
+.o-section-redefinirSenha__step-heading{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #8DC73E;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+  text-align: center;
+  font-size: 18px;
+  color: #8DC73E;
+}
+
+.o-section-redefinirSenha__step-body{
+  width:100%;
+  height: 365px;
+  padding: 40px 50px;
+}
+
+.o-section-redefinirSenha__step-body p{
+  margin-bottom: 20px;
+  color: #929292;
+}
+
+.o-section-redefinirSenha__body{
+  position: relative;
+  margin-top: 25px;
+}
+
+.o-section-redefinirSenha__body-title{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #8DC73E;;
+}
+
+.o-section-redefinirSenha__body-info{
+  max-width: 500px;
+  font-size: 13px;
+  margin-bottom: 70px;
+  color: #929292;
+}
+
+.o-section-redefinirSenha__body-form{
+  margin-bottom: 90px;
+}
+
+.o-section-redefinirSenha__body-form .c-group-input{
+  padding: 0;
+}
+
+.o-section-redefinirSenha__body-footer{
+  padding: 10px;
+  border: 1px solid #cd486b;
+}
+
+.o-section-redefinirSenha__body-footer .title{
+  font-size: 16px;
+  color: #cd486b;
+  margin-bottom: 5px
+}
+
+.o-section-redefinirSenha__body-footer .msg{
+  font-size: 13px;
+  color: #929292;
+  padding-left: 10px;
+}
+
+.o-icon-step:before{
+  content: url(../../../img/lock.png);
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.o-icon-warning:before{
+  content: url(../../../img/warning.png);
+  position: relative;
+  top: 2px;
+  margin-right: 2px;
+}
+
+@media screen and (max-height: 500px){
+    .o-section-redefinirSenha{
+        margin-top: 2px ;
+    }
+}
+  
+@media (max-width: 1000px){
+
+  .o-section-redefinirSenha__step{
+  margin-left: 0;
+}
+}
+
+@media (max-width: 767px){
+  .o-section-redefinirSenha__step{
+    display: none;
+  }
+}

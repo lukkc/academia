@@ -1,0 +1,112 @@
+.o-sidenav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    min-height: 100%;
+    border-right: 2px solid #282828;
+    background-color: #3B4F56;
+}
+
+.o-sidenav-logo {
+    height: 150px;
+    border-bottom: 3px solid #000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.o-sidenav-logo__img {
+    width: 230px;
+}
+
+.o-sidenav-avatar {
+    height: 140px;
+}
+
+.o-sidenav-avatar__body {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.o-sidenav-avatar__img {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 103px;
+    height: 103px;
+}
+
+.o-sidenav-avatar__body,
+.o-sidenav-avatar__img {
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #282828;
+}
+
+.o-sidenav-list {
+    padding: 20px 0;
+}
+
+.o-sidenav-link {
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.o-sidenav-link i {
+    margin-right: 10px;
+}
+
+.o-user:before{
+    content: url(../../img/user.png);
+}
+
+.o-pag:before{
+    content: url(../../img/credit-card.png);
+}
+
+.o-plan:before{
+    content: url(../../img/dumbbell.png);
+}
+
+.o-out:before{
+    content: url(../../img/out.png);
+}
+
+
+@media screen and (max-width: 767px) {
+    .o-sidenav {
+        position: relative;
+        align-items: center;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        -o-align-items: center;
+        min-height: 1px;
+    }
+    .o-sidenav-menu {
+        padding-bottom: 2px;
+        height: 0;
+        transition: height .5s;
+    }
+    .o-sidenav-link {
+        padding-left: 0;
+    }
+    .o-sidenav-logo {
+        align-items: flex-start;
+        -webkit-align-items: flex-start;
+        -ms-align-items: flex-start;
+        -o-align-items: flex-start;
+        -moz-align-items: flex-start;
+        padding-top: 15px;
+        height: 160px;
+    }
+    .o-sidenav-list {
+        padding: 10px 0;
+    }
+    .o-sidenav-avatar {
+        height: 120px;
+    }
+}

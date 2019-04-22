@@ -1,0 +1,136 @@
+.o-section-login .o-section-title {
+    margin-bottom: 20px;
+}
+
+.o-section-login__vantagens {
+    margin-left: 1%;
+    padding: 20px;
+}
+
+.o-section-login__vantagens .o-section-title {
+    padding-left: 10px;
+    border-left: 4px solid #8dc73e;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.o-section-login__vantagens-detalhes {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.o-section-login__panel {
+    width: 49%;
+    position: relative;
+    top: -30px;
+    right: 50px;
+}
+
+.o-section-login__info {
+    /* top: -130px; */
+}
+
+.o-section-login__info-detalhes {
+    justify-content: center;
+    align-items: center;
+}
+
+.o-section-login__topImage {
+    background-image: url("../../../img/bg-login.jpg");
+    background-position-y: -411px;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 47px;
+}
+
+.o-section-login__topImage img{
+    max-height: 200px;
+    width: 100%;
+}
+
+.o-section-login__button {
+    margin-bottom: 20px;
+}
+
+.o-banner-login {
+    position: absolute;
+    top: 474px;
+    left: 35px;
+    padding: 10px;
+    border: 3px solid #282828;
+}
+
+.o-banner-login .o-banner-fixo__button {
+    margin-top: 25px;
+} 
+
+.o-banner-login__adesao {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.o-pag-2:before{
+    content: url(../../../img/credit-card-login.png);
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.o-user-2:before{
+    content: url(../../../img/user-login.png);
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.o-smile:before{
+    content: url(../../../img/smile.png);
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.o-adesao:before{
+    content: url(../../../img/adesao.png);
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .o-section-login__panel {
+        top: 0;
+        left: 0;
+        width: 98%;
+    }
+
+    .o-section-login__vantagens {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .o-section-login__info-detalhes {
+        justify-content: flex-start;
+    }
+
+    .o-section-login__info-detalhes h4,
+    .o-section-login__vantagens-detalhes {
+        margin-left: 5px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .o-section-login__topImage {
+        margin-top: 0px;
+    }
+}

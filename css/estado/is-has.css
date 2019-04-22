@@ -1,0 +1,31 @@
+.e-is-navbar__hidden{
+  top: -135px !important;
+}
+
+.e-is-banner-fixo__bottom{
+  top: calc(100vh - 23px) !important;
+}
+
+.e-is-section__small{
+  width: calc(100% - 285px) !important;
+}
+
+.e-is-overflow__hidden{
+  overflow: hidden;
+}
+
+.e-is-overflow__auto{
+  overflow: auto;
+}
+
+.is-hidden{
+    display: none !important;
+}
+
+.is-show{
+    display: block !important;
+}
+
+.is-unClickable{
+	pointer-events: none;
+}

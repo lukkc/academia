@@ -1,0 +1,56 @@
+.c-group-input {
+    margin-bottom: 10px;
+}
+
+.o-section .c-group-input {
+    padding: 5px;
+}
+
+.c-group-input .c-label,
+.c-group-input .c-input,
+.c-group-input .c-select {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.c-group-input .c-input,
+.c-group-input .c-select {
+    min-height: 35px;
+    padding: 0 10px;
+}
+
+.c-input,
+.c-textarea,
+.c-select {
+    border: 1px solid #282828;
+    background-color: #282828;
+    color: #fff;
+}
+
+.c-select option:first-child{
+    color: #757575;
+}
+
+.c-group-input .c-textarea {
+    height: 200px;
+    padding: 10px;
+    resize: none;
+}
+
+.c-group-input .checkbox {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    min-height: 25px;
+    min-width: 25px;
+    margin-right: 5px;
+    border: 1px solid #282828;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+
+.c-group-input .checkbox:checked::after {
+    content: "\f00c";
+    font-size: 25px;
+    font: normal normal normal 20px/1 FontAwesome;
+}

@@ -1,0 +1,117 @@
+.o-dashboard-table{
+  position: relative;
+  min-height: 670px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  overflow-x: auto;
+  background: #202020;
+}
+
+.o-dashboard-table table{
+  position: relative;
+  display: table;
+  width: 100%;
+  min-width: 400px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.o-dashboard-table tr{
+  position: relative;
+  display: table-row;
+}
+
+.o-dashboard-table caption{
+  padding: 5px 0;
+  text-align: left;
+}
+
+.o-dashboard-table caption label{
+  width: 100%;
+  font-size: 16px;
+}
+
+.o-dashboard-table caption h3{
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.o-dashboard-table thead{
+  background: #282828;
+}
+
+
+.o-section-dashboard__infoPagamento .o-dashboard-table tbody tr{
+  border-top: 2px solid #282828;
+}
+
+.o-dashboard-table th,
+.o-dashboard-table td{
+  position: relative;
+  display: table-cell;
+  min-width: 50px;
+  padding: 4px;
+}
+
+.o-dashboard-table th{
+  border: 2px solid #333; 
+}
+
+.o-dashboard-table td{
+  height: 40px;
+  color: #fff;
+  transition: opacity 2s;
+}
+
+.o-dashboard-table__search{
+   min-height: 30px;
+    padding: 0 10px; 
+}
+
+.o-table-paging__control {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    min-width: 400px;
+    margin-top: 40px;
+}
+
+.o-table-paging__button {
+    display: inline-block;
+    min-width: 35px;
+    min-height: 30px;
+    padding: 6px 5.5px;
+    margin: 1em 0.25em;
+    opacity: 0.8;
+    text-align: center;
+    background: #282828;
+    color: #ffd966;
+    border: 1px solid #ffd966;
+    font-size: 14px;
+}
+
+.o-table-paging__button img{
+  width: 14px;
+  height: 14px;
+}
+
+.o-table-paging__button.active{
+    min-width: 40px;
+    min-height: 35px;
+    padding: 0;
+    opacity: 1;
+    border: 2px solid #ffd966;
+    font-weight: bold;
+}
+
+.o-table-page_counter{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #ffd966;
+}
